@@ -2,15 +2,31 @@
   "name": "sample-get",
   "version": "0.0.0",
   "private": true,
-  "scripts": {
-    "start": "node ./bin/www"
+  "description": "A sample of the project, which can help me prepare.",
+  "engines": {
+    "node": "12.x"
   },
+  "main": "./bin/www",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csc3221-master/sample-get.git"
+  },
+  "keywords": [
+    "nodejs",
+    "heroku"
+  ],
+  "author": "Sangha Yoon",
+  "license": "MIT",
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
-    "pug": "2.0.0-beta11"
+    "pug": "3.0.0"
   }
 }
